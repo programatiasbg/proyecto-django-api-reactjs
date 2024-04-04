@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { createPost, deletePost, updatePost, getPost } from "../api/posts.api";
 import { useNavigate, useParams } from "react-router-dom"; // parámetros de url
